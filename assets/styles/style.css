@@ -1,0 +1,295 @@
+h1,
+#heading2,
+.menu,
+.button,
+#subscribe,
+.city,
+#headingarticle,
+#article,
+.podrobnee,
+.info,
+.subscription,
+.text {
+    font-family: 'Gilroy', Arial, sans-serif;
+    font-style: normal;
+}
+
+.headfooter,
+.tel,
+.address {
+    font-family: 'Roboto', Arial, sans-serif;
+    font-style: normal;
+}
+
+h1 {
+    font-weight: 600;
+    font-size: 99px;
+    line-height: 150%;
+    color: black;
+    margin: 0px 0px 0px 0px;
+
+}
+
+#heading2 {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+    color: black;
+    margin: 0px;
+    padding: 0px;
+}
+
+.menu {
+    text-decoration: none;
+    width: 250px;
+    min-height: 24px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    padding: 25px;
+    color: black;
+
+}
+
+#mainmenu .menu {
+    color: #4E4E4E;
+    display: flex;
+    padding: 0;
+}
+
+.menu:hover {
+    text-decoration: underline;
+}
+
+.button {
+    height: 58px;
+    width: 268px;
+    background: #000000;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    letter-spacing: 0.0375em;
+    color: #FFFFFF;
+    margin-top: 45px;
+}
+
+.button:hover {
+    background: #703737;
+}
+
+.pic {
+    padding: 8px;
+}
+
+.city {
+    padding: 5px;
+    margin: 0 120px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    background-color: #323232;
+    color: #FFFFFF;
+    text-decoration: none;
+    border-color: #323232;
+}
+
+#headingarticle {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 130%;
+    height: 100px;
+    margin: 0px;
+
+}
+
+#article {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    margin: 16px 0 24px 0;
+}
+
+.podrobnee {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #CC4C6E;
+    text-decoration: none;
+}
+
+.podrobnee:hover {
+    text-decoration: underline;
+}
+
+.info {
+    border: 1px solid #C4C4C4;
+    padding: 10px 185px 10px 30px;
+    color: #464646;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    width: 199px;
+    height: 54px;
+}
+
+#subscribe {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 110%;
+    color: black;
+}
+
+.subscription {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 130%;
+    color: #5A5A5A;
+}
+
+.text {
+    border: 0;
+    border-bottom: 1px solid #C4C4C4;
+    width: 400px;
+    background-color: #F3F3F3;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 130%;
+    outline: none;
+}
+
+.headfooter {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 150%;
+}
+
+.tel {
+    color: #828282;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 150%;
+    text-decoration: none;
+}
+
+.address {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #828282;
+}
+
+.socnet {
+    padding-right: 9px;
+}
+
+.pay {
+    filter: grayscale(100%);
+}
+
+a:visited {
+    color: black;
+}
+
+input:focus {
+    color: rgb(61, 58, 58);
+}
+
+.flexcontainer1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.flexcontainer2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.flexcontainer3 {
+    display: flex;
+    flex-direction: column;
+}
+
+.long {
+    margin-left: 60px;
+}
+
+.logo {
+    margin-left: 130px;
+}
+
+.icon {
+    margin-left: 322px;
+}
+
+.container {
+    padding-left: 275px;
+    padding-top: 90px;
+}
+
+.artic {
+    height: 420px;
+    width: 1760px;
+    padding: 68px 80px;
+    display: inline-block;
+}
+
+.imeg {
+    width: 784px;
+    height: 357px;
+    float: left;
+}
+
+.abzac {
+    display: block;
+    float: left;
+    margin-left: 90px;
+}
+
+.groupinfo {
+    clear: both;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sbc {
+    display: flex;
+    box-sizing: border-box;
+
+}
+
+.sbc1 {
+    width: 811px;
+    height: 453px;
+    padding: 51px 0 51px 80px;
+    float: left;
+}
+
+.sbc2 {
+    display: block;
+    float: left;
+    margin-left: 70px;
+}
+
+.footer {}
+
+.footer_top {
+    width: 1920px;
+    box-sizing: border-box;
+    padding: 0 80px 0 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_bottom {
+    width: 1920px;
+    box-sizing: border-box;
+    padding: 0 80px 0 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_pay {}
